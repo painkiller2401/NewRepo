@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Numeros 
 {
   int num1, num2;
-  public static void Main(String[] args)
+  public static void main(String[] args)
   {
     Numeros n = new Numeros();
     Scanner leer = new Scanner(System.in);
@@ -16,8 +16,17 @@ public class Numeros
     {
       if(i % 2 == 0)
       {
-        System.out.print(i);
+        System.out.print("pares " + i + " , ");
       }
+    } 
+    int o = n.num1;
+    while( o < n.num2) 
+    {
+      if(o % 2 == 1)
+      {
+        System.out.print("impares " + o + " , ");
+      }
+      o++;
     }
   }
 }
