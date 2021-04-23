@@ -23,7 +23,7 @@ public class Calculadora
   }
   public static void Main(String[] args)
   {
-    Calculadora Operaciones = new Calculadora(); 
+    Calculos Operaciones = new Calculos(); 
 
     Scanner leer = new Scanner(System.in);
     int seleccion;
@@ -57,7 +57,7 @@ public class Calculadora
         break;
 
     }
-    leer.close();
+
     System.out.print("El resultado es: "+ resultado);
   }
   
