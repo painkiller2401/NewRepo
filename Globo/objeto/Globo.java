@@ -14,11 +14,13 @@ yInicial) {
  diametro = diametro + cambio;
  }
  public void mostrar (Graphics g) {
- g.setColor(Color.BLUE);
+ g.setColor(Color.blue);
  g.drawOval (xCoord, yCoord, diametro, diametro);
  }
-  public void mostrar (Graphics g) {
- g.setColor(Color.WHITE);
+
+ public void mostrar2 (Graphics g) {
+ //Color colorFondo=new Color(238, 238, 238, 255);
+ g.setColor(Color.white);
  g.drawOval (xCoord, yCoord, diametro, diametro);
  }
 }
